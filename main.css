@@ -1,0 +1,60 @@
+.profile {
+    border-radius: 50%;
+}
+
+.prof {
+    padding-top: 50px;
+}
+
+.name {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.contact {
+    padding-top: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.bio {
+    padding-right: 10%;
+    padding-left: 10%;
+    line-height: 2;
+}
+
+.ending {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.foot {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.coursetitle {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.quadcopter {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90px;
+}
+
+.counterjack {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90px;
+}
+.centeredButtons {
+    text-align: center;
+}
+
+.currentProjects {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
