@@ -58,3 +58,16 @@
     padding-bottom: 2%;
 }
 
+.rotated{
+    /* -ms-transform: rotate(80deg); 
+    -webkit-transform: rotate(80deg);
+    transform: rotate(80deg); */
+
+    -webkit-animation:spin 1s linear;
+    -moz-animation:spin 1s linear;
+    animation:spin 1s linear;
+  }
+
+  @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
