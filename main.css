@@ -1,3 +1,6 @@
+#subtitle {
+    font-family: 'Nova Flat', cursive;
+}
 .profile {
     border-radius: 50%;
 }
@@ -12,7 +15,7 @@
 }
 
 .contact {
-    padding-top: 100px;
+    padding-top: 60px;
     margin-left: 0px;
     margin-right: 0px;
 }
@@ -55,5 +58,22 @@
 
 .currentProjects {
     padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
     padding-bottom: 2%;
+}
+
+.loopfulButtons {
+    text-align: center;
+}
+
+.otherProjects {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.mainCardAlignment {
+    text-align: center;
 }

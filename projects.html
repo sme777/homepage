@@ -15,7 +15,7 @@
 
 
 
-    <body>
+<body>
 
   <nav class="navbar  navbar-expand-md navbar-light bg-light">
     <a class="navbar-brand" href="index.html">Personal Homepage</a>
@@ -36,9 +36,6 @@
         <li class="nav-item">
           <a class="nav-link" href="research.html">Research</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="miscellaneous.html">Miscellaneous</a>
-        </li>
       </ul>
     </div>
   </nav>
@@ -50,7 +47,7 @@
     </div>
     <div class="row">
         <div class="currentProjects col-sm-4">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="max-width: 18rem;">
                 <div class="card-header">
                   <h6>Quadcopter with Closed-Loop Control System</h6>
                 </div>
@@ -70,7 +67,7 @@
         </div>
 
         <div class="currentProjects col-sm-4">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="max-width: 18rem;">
                 <div class="card-header">
                   <h6>Counterjack – A Blackjack Card Counting Simulator</h6>
                 </div>
@@ -89,7 +86,7 @@
         </div>
 
         <div class="currentProjects col-sm-4">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="max-width: 18rem;">
                 <div class="card-header">
                   <h6>Loopful – An Unordinary Social Network</h6>
                 </div>
@@ -98,7 +95,10 @@
                   <h5 class="card-title">Ruby, JavaScript, and Swift</h5>
                   <p class="card-text">Loopful is an educational platform where students in schools and universities can get in touch with each other.
                   Loopful enables the creation of large social and professional networks, along with being an academic hub. </p>
-                  <a href="#" class="btn btn-secondary disabled">Closed Source</a>
+                  <div class="loopfulButtons">
+                    <a href="mailto:sm3@berkeley.edu?subject=Tell%20me%20about%20Loopful&body=Hi%20Samson%2C%0D%0A%0D%0AI%20would%20like%20to%20know%20more%20about%20Loopful%20and%20what%20it%20does.%20Please%20get%20back%20to%20me%20whenever%20you%20can!%0D%0A%0D%0ABest%2C%0D%0A%0D%0A" class="btn btn-warning">Limited Source</a>
+                  </div>
+                  
                 </div>
               </div>
         </div>
@@ -116,86 +116,129 @@
 
 
         <div class="row">
-            <div class="col-sm-4">
-                <div class="card border-success mb-3" style="max-width: 18rem;">
-                    <div class="card-header bg-transparent border-success">Trading Bot (Terry)</div>
-                    <div class="card-body text-success">
-                      <h5 class="card-title">Success card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="otherProjects col-sm-4">
+                <div class="card border-dark mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Trading Bot (Terry)</div>
+                    <div class="card-body text-dark">
+                      <h5 class="card-title text-info">C++</h5>
+                      <p class="card-text">Terry is a trading bot built using Interactive Broker
+                        API. The bot follows a certain heuristic with parts involving
+                        supervised machine learning. Collected data is persisted in
+                        a SQLite database.</p>
                     </div>
-                    <div class="card-footer bg-transparent border-success">Footer</div>
+                    <div class="card-footer border-dark">Closed Source</div>
                   </div>
-              <!-- <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div> -->
             </div>
-            <div class="col-sm-4">
-              <div class="card border-success mb-3" style="min-width: 24rem;">
-                <div class="card-header bg-transparent border-success">Numc*</div>
-                <div class="card-body text-success">
-                  <h5 class="card-title">Success card title</h5>
-                  <p class="card-text">Terry is a trading bot built in C/C++ using Interactive 
-                      Broker API. The bot follows a certain heuristic with parts involving supervised 
-                      machine learning. Collected data is persisted in a SQLite database.</p>
+
+
+            <div class="otherProjects col-sm-4">
+              <div class="card border-dark mb-3" style="max-width: 18rem;">
+                  <div class="card-header border-dark">Graph Simulator**</div>
+                  <div class="card-body text-dark">
+                    <h5 class="card-title text-danger">Java</h5>
+                    <p class="card-text">Terry is a trading bot built using Interactive Broker
+                      API. The bot follows a certain heuristic with parts involving
+                      supervised machine learning. Collected data is persisted in
+                      a SQLite database.</p>
+                  </div>
+                  <div class="card-footer border-dark"><a class="text-danger" href="">Open Source</a></div>
                 </div>
-                <div class="card-footer bg-transparent border-success">Footer</div>
+          </div>
+
+            <div class="otherProjects col-sm-4">
+              <div class="card border-dark mb-3" style="max-width: 22rem;">
+                <div class="card-header border-dark">Numc*</div>
+                <div class="card-body text-dark">
+                  <h5 class="card-title text-success">Python and C</h5>
+                  <p class="card-text">Numc is a numercial computational library. The power of the library relies in 
+                    parallelism (i.e. OpenMP, SIMD) as its used thoroughly to make computations faster. Numc was written as an academic project in <a class="text-success" href="https://www2.eecs.berkeley.edu/Courses/CS61C/">CS61C</a>.
+                  </p>
+                </div>
+                <div class="card-footer border-dark">Limited Source</div>
               </div>
 
             </div>
 
 
-            <div class="col-sm-4">
-                <div class="card border-success mb-3" style="max-width: 18rem;">
-                  <div class="card-header bg-transparent border-success">Classify*</div>
-                  <div class="card-body text-success">
-                    <h5 class="card-title">Success card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="otherProjects col-sm-4">
+                <div class="card border-dark mb-3" style="max-width: 20rem;">
+                  <div class="card-header border-dark">Classify*</div>
+                  <div class="card-body text-dark">
+                    <h5 class="card-title text-secondary">Assembly (RISC-V)</h5>
+                    <p class="card-text">Built an Artificial Neural Network for recognizing handwritten digits.
+                      Implemented functions for reading and writing matricies in binary files, as well as performing essential linear algebra for ANN. 
+                      Classify was built as an academic project in <a class="text-secondary" href="https://www2.eecs.berkeley.edu/Courses/CS61C/">CS61C.</a></p>
                   </div>
-                  <div class="card-footer bg-transparent border-success">Footer</div>
+                  <div class="card-footer border-dark">Limited Source</div>
                 </div>
             </div>
 
-            <div class="col-sm-4">
-                <div class="card border-success mb-3" style="max-width: 18rem;">
-                  <div class="card-header bg-transparent border-success">Gitlet*</div>
-                  <div class="card-body text-success">
-                    <h5 class="card-title">Success card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="otherProjects col-sm-4">
+              <div class="card border-dark mb-3" style="max-width: 20rem;">
+                <div class="card-header border-dark">Spam/Ham*</div>
+                <div class="card-body text-dark">
+                  <h5 class="card-title text-success">Python</h5>
+                  <p class="card-text">Built a classifier using logistic regression as a backbone for spam and ham emails. The project filters out the spam, and has low false negative rate.
+                    The accuracy of the filter is about 95%, and some of the techniques used are one-hot encoding, metric development etc. The project was developed in <a class="text-success" href="https://data.berkeley.edu/education/courses/data-100">Data100.</a></p>
+                </div>
+                <div class="card-footer border-dark">Limited Source</div>
+              </div>
+          </div>
+
+          <div class="otherProjects col-sm-4">
+            <div class="card border-dark mb-3" style="max-width: 22rem;">
+              <div class="card-header border-dark">Election Map*</div>
+              <div class="card-body text-dark">
+                <h5 class="card-title text-warning">Ruby, JavaScript, Cucumber, and Capybara</h5>
+                <p class="card-text">The project was built through Agile methodology, in a team of four. The election map shows the represenatives of each state, as well as articles about these candidiates. Additionaly,
+                  the map also shows events happening in states, and even counties. The map can be found <a href="https://actionmapproject.herokuapp.com/">here</a> The project was developed in <a class="text-warning" href="https://www2.eecs.berkeley.edu/Courses/CS169A/">CS169A.</a></p>
+              </div>
+              <div class="card-footer border-dark">Limited Source</div>
+            </div>
+        </div>
+
+            <div class="otherProjects col-sm-4">
+              <div class="card border-dark mb-3" style="max-width: 20rem;">
+                  <div class="card-header border-dark">SIXT33N*</div>
+                  <div class="card-body text-dark">
+                    <h5 class="card-title text-info">MSP430 and C</h5>
+                    <p class="card-text">SIXT33N is a vocie controlled car built using amplitude modulation and PCA for voice control and closed-loop system for control of the car. The project was built in <a class="text-info" href="https://www2.eecs.berkeley.edu/Courses/EECS16B/">EECS16B.</a></p>
                   </div>
-                  <div class="card-footer bg-transparent border-success">Footer*</div>
+                  <div class="card-footer border-dark">Limited Source</div>
                 </div>
             </div>
 
-            <div class="col-sm-4">
-                <div class="card border-success mb-3" style="max-width: 18rem;">
-                  <div class="card-header bg-transparent border-success">Scheme Interpreter*</div>
-                  <div class="card-body text-success">
-                    <h5 class="card-title">Success card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="otherProjects col-sm-4">
+                <div class="card border-dark mb-3" style="max-width: 20rem;">
+                  <div class="card-header border-dark">Gitlet*</div>
+                  <div class="card-body text-dark">
+                    <h5 class="card-title text-danger">Java</h5>
+                    <p class="card-text">Built a version-control system Gitlet in
+                      Java with many functionalities of git along with extra features. The version control was made as an academic project in <a class="text-danger"href="https://www2.eecs.berkeley.edu/Courses/CS61B/">CS61B.</a></p>
                   </div>
-                  <div class="card-footer bg-transparent border-success">Footer</div>
+                  <div class="card-footer border-dark">Limted Source</div>
                 </div>
             </div>
 
-            <div class="col-sm-4">
-                <div class="card border-success mb-3" style="max-width: 18rem;">
-                  <div class="card-header bg-transparent border-success">Ants vs. Somebees*</div>
-                  <div class="card-body text-success">
-                    <h5 class="card-title">Success card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="otherProjects col-sm-4">
+                <div class="card border-dark mb-3" style="max-width: 22rem;">
+                  <div class="card-header border-dark">Scheme Interpreter*</div>
+                  <div class="card-body text-dark">
+                    <h5 class="card-title text-success">Python</h5>
+                    <p class="card-text">Wrote a Scheme interpreter in Python. The parser handles core functionalities of the Scheme langage. The interpreter
+                       was built as an academic project in <a class="text-success" href="https://www2.eecs.berkeley.edu/Courses/CS61A/">CS61A.</a></p>
                   </div>
-                  <div class="card-footer bg-transparent border-success">Footer</div>
+                  <div class="card-footer border-dark">Limted Source</div>
                 </div>
             </div>
+
 
 
           </div>
           <div class="container">
-            <p>Projects marked with a * are part of the academic curriculum. Sharing the code source would require explciit permision of the intrustor. Contact me for further details.</p>
+            <p><i>Projects marked with a ** are currently shelved but will be picked up in the future.</i></p>
+            <p><i>Projects marked with a * are part of the academic curriculum. Sharing the code source would require explicit permission from the instructor. <a href="mailto:sm3@berkeley.edu?subject=Request%20to%20View%20an%20Academic%20Project&body=Hi%20Samson%2C%0D%0A%0D%0AI%20would%20like%20to%20view%20one%20of%20your%20academic%20projects%2C%20shoot%20me%20an%20email%20when%20you%20get%20this.%0D%0A%0D%0ABest%2C%0D%0A%0D%0A">Contact me</a> for further details.</i></p>
+            
           </div>
     </div>
     <hr class="my-4">
