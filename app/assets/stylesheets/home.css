@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    background-color: #F5DEB3; /* AntiqueWhite color */
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  .header {
+    background-color: #8B0000; /* DarkRed color */
+    color: #F5DEB3; /* AntiqueWhite color */
+    padding: 20px;
+    text-align: center;
+    image-rendering: pixelated; /* Give the text a pixelated look */
+  }
+  
+  .main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Give the unordered list a pixelated look */
+  .main ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main li {
+    padding: 10px;
+    background-color: #8B0000; /* DarkRed color */
+    color: #F5DEB3; /* AntiqueWhite color */
+    image-rendering: pixelated;
+    border: 1px solid #F5DEB3; /* AntiqueWhite color */
+  }
+  
+  .footer {
+    background-color: #8B0000; /* DarkRed color */
+    color: #F5DEB3; /* AntiqueWhite color */
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    image-rendering: pixelated; /* Give the text a pixelated look */
+  }
+  .navbar {
+    background-image: url("path/to/image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='pixelate'><feTurbulence type='fractalNoise' baseFrequency='.025' numOctaves='3' /><feColorMatrix type='saturate' values='0' /></filter></svg>#pixelate");
+    -webkit-filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='pixelate'><feTurbulence type='fractalNoise' baseFrequency='.025' numOctaves='3' /><feColorMatrix type='saturate' values='0' /></filter></svg>#pixelate");
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+  }
+  
+  .navbar li {
+    padding: 0 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+.profile-image {
+    width: 60%;
+}
+
+.profile-image-container {
+    text-align: center;
+}
+
+.profile-bio-container {
+  padding-top: 10%;
+  /* margin-left: 10%; */
+  align-items: center;
+}
+  
+/* .hiddenPreview {
+  display:none; 
+  margin-left: 20px;
+} */
